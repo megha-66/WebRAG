@@ -1,6 +1,6 @@
 URLS = [
-    "https://hughmcguire.medium.com/why-can-t-we-read-anymore-503c38c131fe",
-    "https://acharyaprashant.medium.com/excellence-begins-with-shri-ram-51799f14bc6f",
+    "<Website URL 1 to be QAed upon>",
+    "<Website URL 2 to be QAed upon>"
 ]
 
 EMBEDDING_MODEL = "BAAI/bge-base-en-v1.5"
