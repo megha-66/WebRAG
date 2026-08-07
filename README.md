@@ -58,9 +58,55 @@ source rag/bin/activate
 ```
 pip install -r requirements. txt
 ```
-4. Download and install Ollama from
+4. Download and install Ollama
+```
+curl -fsSL https://ollama.com/install.sh | sh
+```
 
-5. Pull an LLM
+6. Pull an LLM
+
+Example - 
+```
+ollama pull llama3.2:1b
+```
+
+### Environment Variable
+
+Create a ```.env``` file in the project root. 
+
+Example- 
+```
+HF_TOKEN=hf_xxxxxxx
+```
+Note: The Hugging Face token is only required if you are using hosted Hugging Face services.\
+Local embedding models typically do not require it once downloaded.
+
+### Building the Vector Database
+
+Run the ingestion script once. 
+
+```~$ python ingest.py```
+
+This script: 
+- Downloads the webpages.
+- Splits them into chunks.
+- Generates embeddings.
+- Stores them in the ChromaDB.
+
+The vector database is saved inside the chroma_db/ directory.
+You only need to run this again if you change or add source documents.
+
+### Running the Chatbot 
+
+```~$ python chatbot.py ```
+
+Example: 
+
+
+
+
+
+
 
    
 
