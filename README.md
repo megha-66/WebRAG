@@ -107,6 +107,17 @@ Example:
 ## How it Works
 <img width="900" height="356" alt="Document Loader" src="https://github.com/user-attachments/assets/954dfbc6-bc18-410b-a272-0145163b03eb" />
 
+---
+
+## Future Improvements 
+- PDF document ingestion
+- Multiple website support
+- Web Interface or Frontend UI
+- Conversation Memory
+- Faster responses
+
+
+
 
 
 
