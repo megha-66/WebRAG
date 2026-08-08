@@ -103,6 +103,11 @@ You only need to run this again if you change or add source documents.
 Example: 
 <img width="1890" height="652" alt="image" src="https://github.com/user-attachments/assets/990180d4-ff2e-40f9-9a2f-eab8fc455002" />
 
+---
+## How it Works
+<img width="900" height="356" alt="Document Loader" src="https://github.com/user-attachments/assets/954dfbc6-bc18-410b-a272-0145163b03eb" />
+
+
 
 
 
